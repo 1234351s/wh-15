@@ -345,3 +345,18 @@ color: var(--blue-color);
   .logo {
     margin-bottom: 20px;
   }
+  .advantage-list-item:first-child::before {
+    background-image: url(../images/antenna.svg);
+  }
+  
+  .advantage-list-item:nth-child(2)::before {
+    background-image: url(../images/clock.svg);
+  }
+  
+  .advantage-list-item:nth-child(3)::before {
+    background-image: url(../images/diagram.svg);
+  }
+  
+  .advantage-list-item:last-child::before {
+    background-image: url(../images/astronaut.svg);
+  }
