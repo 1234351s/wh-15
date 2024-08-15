@@ -234,10 +234,6 @@
     font-weight: 700;
     font-family: Roboto;
   }
-  .advantages-text {
-    color: rgb(117, 117, 117);
-    background-color: rgb(117, 117, 117);
-  }
   .team {
     text-align: center;
     height: 648px;
@@ -345,18 +341,30 @@ color: var(--blue-color);
   .logo {
     margin-bottom: 20px;
   }
-    .advantages-list-item:first-child::before {
-      background-image: url(../img/antenna.svg);
-    }
-    
-    .advantages-list-item:nth-child(2)::before {
-      background-image: url(../img/clock.svg);
-    }
-    
-    .advantages-list-item:nth-child(3)::before {
-      background-image: url(../img/diagram.svg);
-    }
-    
-    .advantages-list-item:last-child::before {
-      background-image: url(../img/astronaut.svg);
-    }
+  .advatages-list-item:first-child::before {
+    background-image: url(../img/antenna.svg);
+  }
+  
+  .advatages-list-item:nth-child(2)::before {
+    background-image: url(../img/clock.svg);
+  }
+  
+  .advatages-list-item:nth-child(3)::before {
+    background-image: url(../img/diagram.svg);
+  }
+  
+  .advatages-list-item:last-child::before {
+    background-image: url(../img/astronaut.svg);
+  }
+.advatages-list-item::before {
+content: " ";
+display: block;
+width: 270px;
+height: 120px;
+
+margin-bottom: 30px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 4px;
+background-color: var(--grey-color);
+}
